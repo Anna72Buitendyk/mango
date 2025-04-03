@@ -28,4 +28,14 @@ public class Television extends DispositivoElectronico {
             return "Volumen fuera del rango";
         }
     }
+    
+    @Override
+    public String encender(){
+        return "La television esta cargando....";
+    }
+    
+    @Override
+    public double calcularDepreciacion(double precio){
+        return precio * 0.05;
+    }
 }

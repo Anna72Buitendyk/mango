@@ -22,6 +22,11 @@ public class Computadora extends DispositivoElectronico{
         this.memoriaDisco += cantidad;
         return this.memoriaDisco;
     }
+    
+    @Override
+    public double calcularDepreciacion(double precio){
+        return precio * 0.12;
+    }
 
     public int getMemoriaRAM() {
         return memoriaRAM;

@@ -23,6 +23,8 @@ public class DispositivoElectronico {
     public String encender(){
         return "El dispositivo electronico esta encendido";
     }
+    
+    public abstract double calcularDepreciacion(double precio);
 
     public String getMarca() {
         return marca;

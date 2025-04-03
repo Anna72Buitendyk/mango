@@ -47,11 +47,11 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txtmarcaComp" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtModeloComp" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtIPComp" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtRAMComp" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtMemoriaDDComp" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtmarcaComp" max="32767" attributes="0"/>
+                          <Component id="txtModeloComp" max="32767" attributes="0"/>
+                          <Component id="txtIPComp" max="32767" attributes="0"/>
+                          <Component id="txtRAMComp" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtMemoriaDDComp" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -67,11 +67,11 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txtMarcaTV" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtModeloTV" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtIPTV" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtPulgadas" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtVolumenActual" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMarcaTV" max="32767" attributes="0"/>
+                          <Component id="txtModeloTV" max="32767" attributes="0"/>
+                          <Component id="txtIPTV" max="32767" attributes="0"/>
+                          <Component id="txtPulgadas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtVolumenActual" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                   </Group>
