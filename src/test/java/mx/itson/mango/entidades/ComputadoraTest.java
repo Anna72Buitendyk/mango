@@ -43,7 +43,7 @@ public class ComputadoraTest {
     public void testActualizarMemoriaDisco() {
         System.out.println("actualizarMemoriaDisco");
         double cantidad = 34.4;
-        Computadora instance = new Computadora("ASUS", "A45434", "192.168.0.45", 16, 256);;
+        Computadora instance = new Computadora("ASUS", "A45434", "192.168.0.45", 16, 256);
         instance.actualizarMemoriaDisco(cantidad);
     }
 }

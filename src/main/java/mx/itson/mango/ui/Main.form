@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jFormattedTextField1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="lblComputadora" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lblCModelo" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCMarca" min="-2" max="-2" attributes="0"/>
+                          <Component id="libCdirecionIP" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMemoriaRAM" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMemoriaDisco" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtmarcaComp" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtModeloComp" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIPComp" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRAMComp" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMemoriaDDComp" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lblVolumen" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTMarca" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTModelo" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTDirecionIP" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPulgadas" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtMarcaTV" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtModeloTV" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIPTV" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPulgadas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtVolumenActual" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblTv" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+              <Component id="setAtributos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblComputadora" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTv" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCMarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtmarcaComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtModeloComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="libCdirecionIP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIPComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblMemoriaRAM" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRAMComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblMemoriaDisco" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMemoriaDDComp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTMarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMarcaTV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtModeloTV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTDirecionIP" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtIPTV" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblPulgadas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPulgadas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblVolumen" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtVolumenActual" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+              <Component id="setAtributos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblComputadora">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Computadora"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTv">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telvision"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCMarca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCModelo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="libCdirecionIP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direcion IP"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMemoriaRAM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Memoria RAM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMemoriaDisco">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Memoria DD"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtmarcaComp">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModeloComp">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtModeloCompActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIPComp">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRAMComp">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMemoriaDDComp">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMemoriaDDCompActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVolumen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volumen Actual"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMarcaTV">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModeloTV">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIPTV">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPulgadas">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtVolumenActual">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTMarca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTModelo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTDirecionIP">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direcion IP"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPulgadas">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pulgadas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="setAtributos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="setAtributosActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
